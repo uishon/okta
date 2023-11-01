@@ -7,6 +7,6 @@ Usage
 -----
 Install package using [pipx](https://pypa.github.io/pipx/), then
 ```
-export SVN_HOST="https://vpn.example.com"
+export VPN_HOST="https://vpn.example.com"
 sudo openconnect --protocol=fortinet --cookie="SVPNCOOKIE=$(okta-login)"
 ```
